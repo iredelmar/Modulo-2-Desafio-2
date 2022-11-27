@@ -1,0 +1,10 @@
+@font-face{
+    font-family: roboto; 
+    src:url(/assets/css/fonts/Roboto/Roboto-Bold.ttf)
+}
+
+
+@font-face{
+    font-family: lato; 
+    src:url(/assets/css/fonts/Lato/Lato-Regular.ttf)
+}

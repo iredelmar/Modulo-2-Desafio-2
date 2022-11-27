@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color:#f7eaee;
+    font-family: roboto;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.pagina{
+    display: grid;
+    grid-template-columns: 15% repeat(4, 1fr);  
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-areas: 
+    "m m m m m"
+    "l c c c c"
+    "p p p p p";
+    width: 95%;
+    height: 100vh;
+   
+}
+
+.menu{
+    grid-area: m;
+    background-color:#bf6d82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+
+}
+
+
+.barralateral{
+grid-area: l;
+background-color: #f88b7b;
+display: flex;
+flex-direction: column;
+border: solid 1px rgb(144, 100, 131);
+
+}
+
+.caja1{
+    font-size: 20px;
+    color: #f7eaee;
+    border: solid 0.5px rgb(144, 100, 131);
+  
+}
+
+
+.caja2{
+    font-family:cursive;  
+  
+ 
+}
+
+a{
+    text-decoration: none;
+    color: #b46490;
+
+}
+
+
+ul{
+    color: white;
+    
+}
+
+
+ul li{
+    list-style-type: none;
+    
+}
+
+
+.contenido{
+    font-family:inherit;
+    grid-area: c;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    justify-items: center;
+    border: solid 1px #f88b7b;
+    gap: 25px;
+    padding: 20px;
+}
+
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f88b7b;
+    width: 250px;
+    align-items: center;
+
+}
+
+.imagen{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 280px;
+
+}
+
+.articulo1{
+    background-image: url(/assets/css/imgs/Maquina.jpeg);
+}
+
+.articulo2{
+    background-image: url(/assets/css/imgs/medidas\ vasos.jpeg);
+}
+
+.articulo3{
+    background-image: url(/assets/css/imgs/Vaso\ Claudia\ Frente.jpeg);
+}
+
+.articulo4{
+    background-image: url(/assets/css/imgs/Vaso\ polette\ arriba.jpeg);
+}
+
+.articulo5{
+    background-image: url(/assets/css/imgs/Botella\ Strangerthings.jpeg);
+}
+
+.articulo6{
+    background-image: url(/assets/css/imgs/Vaso\ Tami.jpeg);
+}
+
+h3{
+    color:#b46490;
+    
+}
+
+h4{
+    color: rgb(126, 117, 117);
+}
+
+.boton{
+    width: 100%;
+    background-color:#f88b7b;
+    border: none;
+    font-size: 13px;
+}
+
+.boton:hover{
+    background-color:black;
+   
+}
+
+.boton p{
+    color: #f7eaee;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+
+.piedepagina{
+    grid-area: p;
+    background-color: #bf6d82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piedepagina p{
+    color: #f7eaee;
+    font-size: 15px;
+}
